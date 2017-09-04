@@ -2,17 +2,9 @@
 <div class="container">
   <app-header></app-header>
   <div class="body-container" style="text-align:center">
-    <h2>Here are some links to help you start: </h2>
-    <ul>
-      <li>
-        <h2><a target="_blank" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-      </li>
-      <li>
-        <h2><a target="_blank" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-      </li>
-      <li>
-        <h2><a target="_blank" href="https://blog.angular.io//">Angular blog</a></h2>
-      </li>
-    </ul>
-  </div>
+    <nav>
+        <a routerLink="/crisis-center" routerLinkActive="active">Crisis Center</a>
+        <a routerLink="/heroes" routerLinkActive="active">Heroes</a>
+      </nav>
+      <router-outlet></router-outlet>
 </div>
