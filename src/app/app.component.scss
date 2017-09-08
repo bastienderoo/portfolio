@@ -2,5 +2,6 @@
   margin-top: 80px;
 }
 .container {
-  background-color: #2D2C3A
+  min-height: calc(100vh - 80px);
+  background-color: #567890;
 }
